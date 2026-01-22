@@ -24,7 +24,7 @@ The project is developed as part of the **M.Sc. course in Wireless Communication
 * **Conditions:** SNR range from −20 dB to +20 dB
 * **Input Shape:** `(N_samples, 2, 128)`
 https://github.com/radioML/dataset
-![Model Flowchart](mermaid-drawing.png)
+images/![Model Flowchart](mermaid-drawing.png)
 ### Modulation Classes (11)
 
 * AM-DSB, AM-SSB

@@ -47,7 +47,7 @@ https://github.com/radioML/dataset or https://www.kaggle.com/datasets/gustavopol
 * Softmax output layer for multi-class classification
 
 <p align="center">
-  <img src="images/mermaid-drawing(7).png" width="600">
+  <img src="images/mermaid-drawing (7).png" width="600">
 </p>
 ### Classical ML Baselines
 
@@ -57,7 +57,7 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 * **Support Vector Machine (SVM)** with RBF kernel
 * **Random Forest (RF)** (100 trees)
 <p align="center">
-  <img src="images/mermaid-drawing(6).png" width="600">
+  <img src="images/mermaid-drawing (6).png" width="600">
 </p>
 ## Training Details
 

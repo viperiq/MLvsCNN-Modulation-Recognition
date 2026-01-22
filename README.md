@@ -24,7 +24,7 @@ The project is developed as part of the **M.Sc. course in Wireless Communication
 * **Conditions:** SNR range from −20 dB to +20 dB
 * **Input Shape:** `(N_samples, 2, 128)`
 https://github.com/radioML/dataset
-images/mermaid-drawing.png
+![Model Flowchart](mermaid-drawing.png)
 ### Modulation Classes (11)
 
 * AM-DSB, AM-SSB
@@ -84,13 +84,11 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 1. Clone the repository
 2. Install dependencies
 3. Download the RadioML 2016.10a dataset or use kaggle dataset like the one i used in code
-4. Run the training script or open the provided notebook
+   https://www.kaggle.com/datasets/gustavopolicarpo/rml201610a-dict
+5. Run the training script or open the provided notebook
 
 ## Reference
 
 O’Shea, T. J., & Corgan, J. (2016). *Convolutional Radio Modulation Recognition Networks*. arXiv:1602.04105
 https://arxiv.org/abs/1602.04105
-## Code
-Full implementation and experiments are available at:
 
-[https://colab.research.google.com/drive/1-S9z0C1--yxZino740fPgzwKmstE6p2D](https://colab.research.google.com/drive/1-S9z0C1--yxZino740fPgzwKmstE6p2D)

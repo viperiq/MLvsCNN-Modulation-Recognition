@@ -19,7 +19,8 @@ The project is developed as part of the **M.Sc. course in Wireless Communication
 <p align="center">
   <img src="images/mermaid-drawing (4).png" width="600">
 </p>
-## Dataset
+
+### Dataset
 
 * **Name:** RadioML 2016.10a
 * **Type:** Synthetic complex baseband I/Q samples
@@ -49,6 +50,7 @@ https://github.com/radioML/dataset or https://www.kaggle.com/datasets/gustavopol
 <p align="center">
   <img src="images/mermaid-drawing (7).png" width="600">
 </p>
+
 ### Classical ML Baselines
 
 For fair comparison, I/Q samples are flattened into 1D vectors:
@@ -59,6 +61,7 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 <p align="center">
   <img src="images/mermaid-drawing (6).png" width="600">
 </p>
+
 ## Training Details
 
 * Train/Test split: 50% / 50%
@@ -69,6 +72,7 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 <p align="center">
   <img src="images/mermaid-drawing.png" width="600">
 </p>
+
 ## Evaluation Metrics
 
 * Overall classification accuracy
@@ -101,6 +105,7 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 <p align="center">
   <img src="images/image_2025-12-04_20-49-22 (2).png" width="600">
 </p>
+
 ## Tools and Frameworks
 
 * Python

@@ -19,7 +19,6 @@ Recognition Networks. arXiv:1602.04105 https://arxiv.org/abs/1602.04105
 This repository implements a lightweight Convolutional Neural Network (CNN) for **Automatic Modulation Recognition (AMR)** using raw In-phase and Quadrature (I/Q) samples. The CNN learns discriminative temporal features directly from the signal without handcrafted feature extraction and is benchmarked against classical machine learning models.
 
 The project is developed as part of the **M.Sc. course in Wireless Communications and Machine Learning** (Fall 2025).
-
 ## Goal
 
 * Design and train a lightweight CNN to recognize modulation schemes directly from raw I/Q samples
@@ -103,10 +102,3 @@ O’Shea, T. J., & Corgan, J. (2016). *Convolutional Radio Modulation Recognitio
 Full implementation and experiments are available at:
 
 [https://colab.research.google.com/drive/1-S9z0C1--yxZino740fPgzwKmstE6p2D](https://colab.research.google.com/drive/1-S9z0C1--yxZino740fPgzwKmstE6p2D)
-
-## Authors
-
-* Shahbaa
-* Mustafa
-
-University of Information Technology and Communications

@@ -17,7 +17,7 @@ The project is developed as part of the **M.Sc. course in Wireless Communication
 * Support common digital and analog modulations (e.g., BPSK, QPSK, QAM16, etc.)
 * Compare CNN performance with classical ML classifiers (KNN, SVM, Random Forest)
 <p align="center">
-  <img src="images/mermaid-drawing(4).png" width="600">
+  <img src="images/mermaid-drawing (4).png" width="600">
 </p>
 ## Dataset
 

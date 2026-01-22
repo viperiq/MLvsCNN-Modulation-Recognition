@@ -16,17 +16,17 @@ The project is developed as part of the **M.Sc. course in Wireless Communication
 * Design and train a lightweight CNN to recognize modulation schemes directly from raw I/Q samples
 * Support common digital and analog modulations (e.g., BPSK, QPSK, QAM16, etc.)
 * Compare CNN performance with classical ML classifiers (KNN, SVM, Random Forest)
-
+<p align="center">
+  <img src="images/mermaid-drawing(4).png" width="600">
+</p>
 ## Dataset
 
 * **Name:** RadioML 2016.10a
 * **Type:** Synthetic complex baseband I/Q samples
 * **Conditions:** SNR range from −20 dB to +20 dB
 * **Input Shape:** `(N_samples, 2, 128)`
-https://github.com/radioML/dataset
-<p align="center">
-  <img src="images/mermaid-drawing.png" width="600">
-</p>
+https://github.com/radioML/dataset or https://www.kaggle.com/datasets/gustavopolicarpo/rml201610a-dict
+
 ### Modulation Classes (11)
 
 * AM-DSB, AM-SSB
@@ -46,6 +46,9 @@ https://github.com/radioML/dataset
 * ReLU activation and Dropout for regularization
 * Softmax output layer for multi-class classification
 
+<p align="center">
+  <img src="images/mermaid-drawing(7).png" width="600">
+</p>
 ### Classical ML Baselines
 
 For fair comparison, I/Q samples are flattened into 1D vectors:
@@ -53,7 +56,9 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 * **K-Nearest Neighbors (KNN)** (k = 7)
 * **Support Vector Machine (SVM)** with RBF kernel
 * **Random Forest (RF)** (100 trees)
-
+<p align="center">
+  <img src="images/mermaid-drawing(6).png" width="600">
+</p>
 ## Training Details
 
 * Train/Test split: 50% / 50%
@@ -61,7 +66,9 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 * Loss Function: Categorical Cross-Entropy
 * Batch size: 1024
 * Epochs: 100
-
+<p align="center">
+  <img src="images/mermaid-drawing.png" width="600">
+</p>
 ## Evaluation Metrics
 
 * Overall classification accuracy
@@ -73,7 +80,27 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 * CNN outperforms classical ML models across all SNR levels
 * Significant performance gain at high SNR
 * Robust feature learning without manual feature extraction
+  
+<p align="center">
+  <img src="images/image_2025-12-04_20-51-55.png" width="600">
+</p>
+<p align="center">
+  <img src="images/image_2025-12-07_23-35-25.png" width="600">
+</p>
+<p align="center">
+  <img src="images/image_2025-12-07_23-35-33.png" width="600">
+</p>
+<p align="center">
+  <img src="images/image_2025-12-07_23-52-07.png" width="600">
+</p>
+<p align="center">
+  <img src="images/image_2025-12-07_23-52-08.png" width="600">
+</p>
+##gradio output
 
+<p align="center">
+  <img src="images/image_2025-12-04_20-49-22 (2).png" width="600">
+</p>
 ## Tools and Frameworks
 
 * Python
@@ -88,6 +115,7 @@ For fair comparison, I/Q samples are flattened into 1D vectors:
 3. Download the RadioML 2016.10a dataset or use kaggle dataset like the one i used in code
    https://www.kaggle.com/datasets/gustavopolicarpo/rml201610a-dict
 5. Run the training script or open the provided notebook
+   
 
 ## Reference
 
